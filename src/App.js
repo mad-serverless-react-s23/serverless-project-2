@@ -30,13 +30,13 @@ function App() {
       <Division a={props[2]} b={props[3]} />
       <h2>And just for fun, Random Numbers!</h2>
       <Addition a={Math.floor(Math.random()* 12)} b={Math.floor(Math.random() * 19)} />
-      <Addition a={(Math.random() * 10) * .5564} b={(Math.random() * 10) * .4234} />
+      <Addition a={(Math.random() * 10) * props[0]} b={(Math.random() * 10) * props[1]} />
       <Subtraction a={Math.floor(Math.random()* 556)} b={Math.ceil(Math.random() * 235)} />
-      <Subtraction a={(Math.random() * 10) * 1.124} b={(Math.random() * 10) * .991} />
+      <Subtraction a={(Math.random() * 10) * props[3]} b={(Math.random() * 10) * props[2]} />
       <Multiplication a={Math.floor(Math.random()* 7)} b={Math.floor(Math.random() * 22)} />
-      <Multiplication a={Math.random()* 8.11} b={Math.random() * 1198.3} />
+      <Multiplication a={Math.random()* props[3]} b={Math.random() * props[0]} />
       <Division a={Math.ceil(Math.random() * 19)} b={Math.floor(Math.random()* 8)} />
-      <Division a={Math.random() * 1109.443} b={Math.random()* 8} />
+      <Division a={Math.random() * props[2]} b={Math.random()* props[1]} />
     </div>
   );
 }
