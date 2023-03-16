@@ -1,0 +1,1 @@
+export const Division = ({ a, b }) => <h3>Division of props: {a} / {b} = {a / b}</h3>

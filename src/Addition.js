@@ -1,5 +1,1 @@
-export const Addition =({ a, b }) => (
-    <p>
-        Addition of props: {a} + {b} = {a + b}
-    </p>
-)
+export const Addition = ({ a, b }) => <h3>Addition of props: {a} + {b} = {a + b}</h3>

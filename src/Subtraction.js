@@ -1,0 +1,1 @@
+export const Subtraction = ({ a, b }) => <h3>Subtraction of props: {a} - {b} = {a - b} </h3>

@@ -1,0 +1,1 @@
+export const Multiplication = ({ a, b }) => <h3>Multiplication of props: {a} x {b} = {a * b}</h3>
